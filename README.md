@@ -1,6 +1,9 @@
 # covid19-navarra
 A simple ETL to visualize the impact of covid-19 in Navarra from opendata official data source.
 
+![image](https://user-images.githubusercontent.com/1070397/103207823-95156600-48ff-11eb-885d-580fe2024e85.png)
+
+
 ## Sources
 Official Navarra government covid19 [web sources](https://gobiernoabierto.navarra.es/es/coronavirus/impacto-situacion) 
 
