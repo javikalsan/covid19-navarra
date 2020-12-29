@@ -10,6 +10,7 @@ Official Navarra government covid19 [web sources](https://gobiernoabierto.navarr
 ## Requirements
 * A UNIX like operating system.
 * Python >= 3.8
+* ssconvert from [Gnumeric](http://www.gnumeric.org/)
 
 ## Installation
 * Create a new virtual environment
