@@ -12,6 +12,7 @@ def current_data_file():
 
 def configure_series(filename):
     series = pd.read_csv(filename, header=0, index_col=0, parse_dates=['date'], squeeze=False)
+    series = series.fillna(series.mean())
     series['MM(7) rolling mean of new positives'] = series['Last day variation new positives'].rolling(7).mean()
     return series
 
