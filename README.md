@@ -1,15 +1,13 @@
 # covid19-navarra
-A simple ETL to visualize the impact of covid-19 in Navarra from opendata official data source.
+A simple ETL to visualize the impact of covid-19 in Navarra from opendata official data sources.
 
 ![image](https://user-images.githubusercontent.com/1070397/104372966-84c8d200-5520-11eb-8932-8259eddb3054.png)
 
 ## Sources
-Official Navarra government covid19 [web sources](https://gobiernoabierto.navarra.es/es/coronavirus/impacto-situacion) 
+Navarra government official covid19 [web sources](https://gobiernoabierto.navarra.es/es/coronavirus/impacto-situacion)
 
 ## Requirements
-* A UNIX like operating system.
 * Python >= 3.8
-* ssconvert from [Gnumeric](http://www.gnumeric.org/)
 
 ## Installation
 * Create a new virtual environment
@@ -34,7 +32,7 @@ From project root path run if you chose mkvirtualenv:
 workon covid19-navarra
 ```
 
-or 
+or
 ```shell script
 source covid19-navarra/bin/activate
 ```
