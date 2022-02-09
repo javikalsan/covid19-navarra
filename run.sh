@@ -16,7 +16,7 @@ wget $SOURCE_URL -O $DATA_FILENAME
 #######################
 
 ## Get columns 2, 3 and 7
-gawk -i inplace -F"," '{print $2",",$3",",$7}' $DATA_FILENAME
+gawk -i inplace -F"," '{print $2",",$3","$6",",$7}' $DATA_FILENAME
 
 ## Remove first line
 sed -i '1d' "$DATA_FILENAME" &&

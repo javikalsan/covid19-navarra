@@ -21,7 +21,8 @@ def draw_plot(series):
     legend_properties = {'weight': 'bold'}
     series.plot(color={'Last day variation new positives': '#8a0303',
                        'Last day variation new hospitalizations': '#897AB9',
-                       'MM(7) rolling mean of new positives': '#99cc33'},
+                       'MM(7) rolling mean of new positives': '#99cc33',
+                       'Last day variation deads': '#000000',},
                 linewidth=2,
                 title="NAVARRA COVID-19",
                 )
