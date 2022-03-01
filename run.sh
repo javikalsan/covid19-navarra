@@ -27,6 +27,9 @@ sed -i "1s/^/$(cat columns)\n/" "$DATA_FILENAME" &&
 ## Remove double quotes
 sed -i 's/"//g' "$DATA_FILENAME" &&
 
+## Remove unhandled html
+sed -i '/^<!DOCTYPE html.*$/,$d' "$DATA_FILENAME" &&
+
 
 #############
 # DATA LOAD #
